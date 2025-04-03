@@ -1,109 +1,264 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IAGRO - Soluções para o agronegócio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicons/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
 
-<body>
+  <body>
     <nav>
-        <div id="logo-container">
-            <img class="logo" src="assets/main_logo.png" />
-            <h1>IAgro Solutions</h1>
-        </div>
-        <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#contato">Contate-nos</a></li>
-        </ul>
+      <div id="logo-container">
+        <img class="logo" src="assets/main_logo.png" />
+        <h1>IAgro Solutions</h1>
+      </div>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contate-nos</a></li>
+      </ul>
     </nav>
 
     <section class="hero" id="sobre">
-        <div class="texto-sobre">
-            <h1>Somos uma empresa dedicada ao desenvolvimento de softwares inovadores para o agronegócio.</h1>
-            <p>Nossa missão é transformar a pecuária, promovendo a produção, saúde e o bem-estar animal através de
-                soluções tecnológicas inovadoras. Estamos comprometidos em capacitar produtores e profissionais com
-                ferramentas que otimizem o manejo dos rebanhos, reduzam custos e aumentem a produtividade, sempre com
-                foco na sustentabilidade econômica e ambiental. Buscamos ser uma referência no desenvolvimento
-                tecnológico para pecuária, garantindo que nossos clientes possam alcançar o máximo potencial de seus
-                rebanhos de forma eficiente e responsável.</p>
-        </div>
+      <div class="hero-particles" id="particles"></div>
+      <div class="texto-sobre">
+        <h1>
+          Somos uma empresa dedicada ao desenvolvimento de softwares inovadores
+          para o agronegócio.
+        </h1>
+        <p>
+          Nossa missão é transformar a pecuária, promovendo a produção, saúde e
+          o bem-estar animal através de soluções tecnológicas inovadoras.
+          Estamos comprometidos em capacitar produtores e profissionais com
+          ferramentas que otimizem o manejo dos rebanhos, reduzam custos e
+          aumentem a produtividade, sempre com foco na sustentabilidade
+          econômica e ambiental. Buscamos ser uma referência no desenvolvimento
+          tecnológico para pecuária, garantindo que nossos clientes possam
+          alcançar o máximo potencial de seus rebanhos de forma eficiente e
+          responsável.
+        </p>
+      </div>
     </section>
 
     <section class="apps-section">
-        <h2>Nossos Aplicativos</h2>
-        <div class="apps-container">
-            <div class="app-card">
-                <img src="assets/predpeso.jpg" alt="Predpeso">
-                <h3>Predpeso</h3>
-                <p>Solução inteligente para pesagem de caprinos e ovinos.</p>
-                <a href="#" class="download-btn">Baixar no Google Play</a>
-            </div>
-            <div class="app-card">
-                <img src="assets/famacha.jpg" alt="Famachapp">
-                <h3>Famachapp</h3>
-                <p>Solução para auxilio no controle de verminose em caprinos e ovinos.</p>
-                <a href="#" class="download-btn">Baixar no Google Play</a>
-            </div>
+      <h2>Nossos Aplicativos</h2>
+      <div class="apps-container">
+        <div class="app-card">
+          <div class="app-images">
+            <img
+              src="https://play-lh.googleusercontent.com/c9mpyHTAeiQrlqOz25NNg8sYzpOh3zI4BM0co9III6-C0mOanRuHAzw-IxGmuuJ7xg=w2560-h1440-rw"
+              alt="Predpeso 1"
+              class="active"
+            />
+            <img
+              src="https://play-lh.googleusercontent.com/q1qvD_csGC4IqFD19qr5fqphypt-Dzt9TOjeNjTyrwx9sd6x-Kkl2Aj4dPLBT6pwfJ0=w2560-h1440-rw"
+              alt="Predpeso 2"
+            />
+            <img
+              src="https://play-lh.googleusercontent.com/gsFWRer3XeQOjbbXayJY7Hn3A9sP9h1E7UEpNjApNEkJor3jBS-fS-7vu1ejvUnTL7k=w2560-h1440-rw"
+              alt="Predpeso 3"
+            />
+          </div>
+          <h3>Predpeso</h3>
+          <p>Solução inteligente para pesagem de caprinos e ovinos.</p>
+          <a
+            target="_blank"
+            href="https://play.google.com/store/apps/details?id=com.iagro.predpeso&pcampaignid=web_share"
+            class="download-btn"
+            >Baixar no Google Play</a
+          >
         </div>
+        <div class="app-card">
+          <div class="app-images">
+            <img
+              src="https://play-lh.googleusercontent.com/brIpNXOd78EMfaLQ7Qo-IelDlYo1K22hr2YvubsW1XyjhZdCbfQ3D7j0NXE1RddbxMj-=w2560-h1440-rw"
+              alt="Famachapp 1"
+              class="active"
+            />
+            <img
+              src="https://play-lh.googleusercontent.com/jJv-q6CxR7Qr9rlDmeS2Fvr6PhncbkwXdMoGIeVapJK6ftdq5g9CDNb7uHdmEBwDTkc_=w2560-h1440-rw"
+              alt="Famachapp 2"
+            />
+            <img
+              src="https://play-lh.googleusercontent.com/A1LeMjVHLqGZSYXPvV8kpiiMDYIOKELNQVnWJFaLH9AFIfGty7iLzUJYr3a2jLJcGtI=w2560-h1440-rw"
+              alt="Famachapp 3"
+            />
+          </div>
+          <h3>Famachapp</h3>
+          <p>
+            Solução para auxílio no controle de verminose em caprinos e ovinos.
+          </p>
+          <a
+            target="_blank"
+            href="https://play.google.com/store/apps/details?id=com.iagro.famachapp&pcampaignid=web_share"
+            class="download-btn"
+            >Baixar no Google Play</a
+          >
+        </div>
+      </div>
     </section>
 
     <section id="equipe" class="equipe-section">
-        <h2>Nossa Equipe</h2>
-        <div class="equipe-container">
-            <div class="equipe-card">
-                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww"
-                    alt="João Silva">
-                <h3>Flavio Henrique</h3>
-                <p>Cargo: CEO</p>
-                <p>Flavio é o fundador da IAGRO, com mais de 20 anos de experiência no agronegócio e tecnologia.</p>
-            </div>
-            <div class="equipe-card">
-                <img src="https://plus.unsplash.com/premium_photo-1664536392779-049ba8fde933?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D"
-                    alt="Maria Oliveira">
-                <h3>Romuere Silva</h3>
-                <p>Cargo: CTO</p>
-                <p>Romuere lidera a equipe de desenvolvimento, garantindo a qualidade e inovação em nossas soluções.</p>
-            </div>
-            <div class="equipe-card">
-                <img src="https://images.unsplash.com/photo-1636041282783-e218bb0a217b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D"
-                    alt="Pedro Santos">
-                <h3>Antonio Oseias</h3>
-                <p>Cargo: Gerente de Projetos</p>
-                <p>Antonio coordena os projetos com foco em entrega e satisfação dos nossos clientes.</p>
-            </div>
+      <h2>Nossa Equipe</h2>
+      <div class="equipe-container">
+        <div class="equipe-card">
+          <img src="assets/membros/01.jpg" alt="Imagem do Flavio Henrique" />
+          <h3>Flavio Henrique Duarte de Araújo</h3>
+          <p>Doutor em Engenharia de Teleinformática</p>
         </div>
+        <div class="equipe-card">
+          <img src="assets/membros/02.jpg" alt="Imagem do Flavio Henrique" />
+
+          <h3>Romuere Rodrigues Veloso e Silva</h3>
+          <p>Doutor em Engenharia de Teleinformática</p>
+        </div>
+        <div class="equipe-card">
+          <img src="assets/membros/03.jpg" alt="Imagem do Flavio Henrique" />
+          <h3>Antônio Oséas de Carvalho Filho</h3>
+          <p>Doutor em Engenharia Elétrica</p>
+        </div>
+        <div class="equipe-card">
+          <img src="assets/membros/04.jpg" alt="Imagem do Flavio Henrique" />
+          <h3>José Lindenberg Rocha Sarmento</h3>
+          <p>Doutor em Genética e Melhoramento Animal</p>
+        </div>
+        <div class="equipe-card">
+          <img src="assets/membros/05.jpg" alt="Imagem do Flavio Henrique" />
+          <h3>Natanael Santos o</h3>
+          <p>Doutor em Ciência Animal</p>
+        </div>
+        <div class="equipe-card">
+          <img src="assets/membros/06.jpg" alt="Imagem do Flavio Henrique" />
+          <h3>Ricardo Andrade Lira Rabelo</h3>
+          <p>Doutor em Engenharia Elétrica</p>
+        </div>
+        <div class="equipe-card">
+          <img src="assets/membros/07.jpg" alt="Imagem do Flavio Henrique" />
+          <h3>Mauricio Benjamin da Rocha</h3>
+          <p>Graduando em Sistemas de Informação</p>
+        </div>
+        <div class="equipe-card">
+          <img src="assets/membros/08.jpg" alt="Imagem do Flavio Henrique" />
+          <h3>Samylle Rose de Brito Silva</h3>
+          <p>Graduanda em Sistemas de Informação</p>
+        </div>
+      </div>
     </section>
 
     <section id="contato" class="contato-section">
-        <img src="assets/logo_1024x1024.png" />
-        <h2>Contate-nos</h2>
-        <div class="contato-container">
-            <div class="contato-info">
-                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:contato@iagro.com">iagro.contato@gmail.com</a>
-                </p>
-                <p><i class="fas fa-phone"></i> Telefone: <a href="tel:+559999999999">+55 (99) 9999-9999</a></p>
-            </div>
-            <div class="social-media">
-                <a href="https://www.instagram.com/iagrosolutions/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/iagro" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
+      <img src="assets/logo_1024x1024.png" />
+      <h2>Contate-nos</h2>
+      <div class="contato-container">
+        <div class="contato-info">
+          <p>
+            <i class="fas fa-envelope"></i> Email:
+            <a href="mailto:iagrosolutions.contato@gmail.com"
+              >iagrosolutions.contato@gmail.com</a
+            >
+          </p>
+          <p>
+            <i class="fas fa-phone"></i> Telefone:
+            <a href="tel:+558699930-7098">(86) 99930-7098</a>
+          </p>
         </div>
+        <div class="social-media">
+          <a href="https://www.instagram.com/iagrosolutions/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/company/iagro" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
     </section>
 
     <footer>
-        © 2024 IAGRO Solutions. Todos os direitos reservados.
+      <p>
+        © <span id="year"></span> IAGRO Solutions. Todos os direitos reservados.
+      </p>
     </footer>
-</body>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
 
+      const particlesContainer = document.getElementById("particles");
+
+      function createParticle() {
+        const particle = document.createElement("div");
+        particle.classList.add("particle");
+
+        const size = Math.random() * 6 + 2;
+        particle.style.width = `${size}px`;
+        particle.style.height = `${size}px`;
+
+        const x = Math.random() * window.innerWidth;
+        particle.style.left = `${x}px`;
+        particle.style.top = `${Math.random() * window.innerHeight}px`;
+
+        const duration = Math.random() * 4 + 4;
+        particle.style.animationDuration = `${duration}s`;
+
+        particlesContainer.appendChild(particle);
+
+        setTimeout(() => {
+          particle.remove();
+        }, duration * 1000);
+      }
+
+      for (let i = 0; i < 60; i++) {
+        setTimeout(createParticle, i * 100);
+      }
+
+      setInterval(createParticle, 300);
+
+      function startCarousel() {
+        const appCards = document.querySelectorAll(".app-card");
+
+        appCards.forEach((card) => {
+          const images = card.querySelectorAll(".app-images img");
+          let currentIndex = 0;
+
+          setInterval(() => {
+            images[currentIndex].classList.remove("active");
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add("active");
+          }, 3000);
+        });
+      }
+
+      document.addEventListener("DOMContentLoaded", startCarousel);
+    </script>
+  </body>
 </html>

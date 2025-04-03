@@ -145,9 +145,9 @@ nav ul li a:hover {
 
 .app-card img {
   object-fit: cover;
-  display: block;
   border-radius: 16px;
   padding-top: 10px;
+  margin: 0 auto;
 }
 
 .app-card h3 {

@@ -238,6 +238,9 @@ nav ul li a:hover {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .equipe-card h3 {
